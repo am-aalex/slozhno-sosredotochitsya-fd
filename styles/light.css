@@ -5,8 +5,33 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color: #FF8DCB;
+  --bg-color: #FFF1F7;
+  --text-color-logo:#FFC2E6;
+  --text-color-one: #353430;
+  --text-color-two: #353430;
+  --main-font: 'IBM Plex mono', monospace;
+  --font-size: 18px;
+  --font-family: 'IBM Plex Mono', monospace;
+}
+:root.theme-light .page {
+  background-image: url(../images/cover-image-light.png);
+}
+.decor_top{
+  visibility: hidden;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+  --accent-color: #FF8DCB;
+  --bg-color: #FFF1F7;
+  --text-color-logo:#FFC2E6;
+  --text-color-one: #353430;
+  --text-color-two: #353430;
+  --main-font: 'IBM Plex mono', monospace;
+  --font-size: 18px;
+  --font-family: 'IBM Plex Mono', monospace;
+}
+.page {
+  background-image: url(../images/cover-image-light.png);
+}
 }
