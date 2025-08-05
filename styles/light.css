@@ -17,7 +17,7 @@
 :root.theme-light .page {
   background-image: url(../images/cover-image-light.png);
 }
-.decor_top{
+.decor_top {
   visibility: hidden;
 }
 @media (prefers-color-scheme: light) {
