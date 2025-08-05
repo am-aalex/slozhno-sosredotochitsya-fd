@@ -237,6 +237,7 @@ footer {
   .decorated-zone::after {
     margin-left: 10px;
     margin-bottom: 10px;
+    bottom: 20px;
   }
   .decorated-zone::before {
     margin-right: 10px;
@@ -247,9 +248,7 @@ footer {
     margin-left: 365px;
     margin-top: 10px;
   }
-  .decorated-zone::after {
-    bottom: 20px;
-  }
+
   .block_focus {
     display: grid;
     grid-template-columns: 1fr 2fr;
