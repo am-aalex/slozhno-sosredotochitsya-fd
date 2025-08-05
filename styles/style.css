@@ -58,7 +58,6 @@
   position: absolute;
   left: 0;
   bottom: 20px;
-
   z-index: 2;
 }
 .decorated-zone::before {
