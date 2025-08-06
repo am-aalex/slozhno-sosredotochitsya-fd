@@ -160,7 +160,6 @@
   color: var(--title-card-color);
 }
 .block_focus {
-  display: grid;
   grid-template-columns: 1fr;
   margin: 30px 10px 0px 10px;
   row-gap: 20px;
@@ -170,25 +169,26 @@
   row-gap: 10px;
 }
 
-.highlight a {
+.block-text a {
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
 }
-.highlight a:hover {
+.block-text a:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
-.highlight a:focus {
+.block-text a:focus {
   border: 1px solid var(--border-color);
+}
+.section {
+  display: grid;
 }
 .block_concentration {
   margin: 50px 10px 0px 10px;
-  display: grid;
   row-gap: 20px;
 }
 .block_best_concentration {
   margin: 50px 10px 0px 10px;
-  display: grid;
   row-gap: 20px;
 }
 .block_best_concentration_title {
@@ -200,12 +200,11 @@
   background-color: var(--accent-color);
 }
 .block_galery {
-  display: grid;
   row-gap: 10px;
   margin: 50px 10px 0px 10px;
 }
 
-footer {
+.footer {
   display: grid;
   min-height: 668px;
   height: 100vh;
@@ -250,7 +249,6 @@ footer {
   }
 
   .block_focus {
-    display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 50px 20px 0px 20px;
     column-gap: 20px;
@@ -264,7 +262,6 @@ footer {
     grid-column: 2;
   }
   .block_concentration {
-    display: grid;
     grid-template-rows: min-content repeat(3, min-content);
     margin: 80px 20px 0px 20px;
     column-gap: 20px;
@@ -274,7 +271,6 @@ footer {
     grid-template-columns: repeat(5, 1fr);
   }
   .block_best_concentration {
-    display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(6, min-content);
     margin: 80px 20px 0px 20px;
@@ -285,7 +281,6 @@ footer {
     grid-row: 1 / span 6;
   }
   .block_galery {
-    display: grid;
     grid-template-rows: repeat(2, min-content);
     margin: 80px 20px 0px 20px;
     row-gap: 20px;
@@ -388,7 +383,6 @@ footer {
   }
 
   .block_concentration {
-    display: grid;
     grid-template-rows: repeat(2, min-content);
     grid-template-columns: repeat(3, 1fr);
     align-items: start;

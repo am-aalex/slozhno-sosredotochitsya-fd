@@ -21,13 +21,13 @@
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #ff8dcb;
-    --bg-color: #fff1f7;
-    --text-color-logo: #ffc2e6;
-    --text-color-one: #353430;
-    --text-color-two: #353430;
-    --border-color: #353430;
-    --title-card-color: #000028;
+  --accent-color: #ff8dcb;
+  --bg-color: #fff1f7;
+  --text-color-logo: #ffc2e6;
+   --text-color-blok: #353430;
+  --text-color-title: #353430;
+  --border-color: #353430;
+  --title-card-color: #000028;
   }
   .page {
     background-image: url(../images/cover-image-light.png);
