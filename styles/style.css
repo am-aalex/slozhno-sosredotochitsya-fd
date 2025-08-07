@@ -425,14 +425,4 @@
   .footer_decor {
     margin-top: 10px;
   }
-
-  .decorated-zone::after {
-    left: 10px;
-    bottom: 30px;
-  }
-
-  .decorated-zone::before {
-    top: 10px;
-    right: 10px;
-  }
 }
